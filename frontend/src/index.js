@@ -40,4 +40,27 @@ class Recipe {
     }
 
 
+    static postNewRecipe(newRecipe) {
+        const options = {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(newRecipe),
+        };
+    
+        fetch(recipesURL, options)
+            .then(resp => resp.json())
+            .then(recipe => {
+                let newestRecipe = new Recipe(`${recipe.id}`, 
+                                            `${recipe.title}`, 
+                                            `${recipe.image}`, 
+                                            `${recipe.instructions}`, 
+                                            `${recipe.ingredients}`, 
+                                            `${recipe.cuisine.title}`); 
+                recipeContainer.innerHTML += newestRecipe.renderSingleRecipe()
+            });
+    }
+
+
 }
