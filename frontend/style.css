@@ -21,31 +21,31 @@ h2 {
 
 table {
     border-collapse: collapse;
-  }
+}
   
-  td {
+td {
     width: 200px;
     text-align: center;
     border: 2px solid rgb(65, 37, 226);
     padding: 5px;
-  }
+}
   
-  tr {
+tr {
     background-color: #bfdce6;
-  }
+}
   
-  th {
+th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
     background-color: #1c5786;
     color: white;
-  }
+}
   
-  .recipe-button {
+.recipe-button {
     font-size: 1.5rem;
     border: 2px solid black;
     background-color: rgb(43, 72, 156);
     color: white;
     margin-bottom: 20px ;
-  }
+}

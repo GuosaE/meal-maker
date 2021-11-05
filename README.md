@@ -1,28 +1,24 @@
-# README
+# Meal Maker
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Meal Maker is an application with a JavaScript frontend and a Rails API backend for storing one's favorite recipes.
 
-Things you may want to cover:
+# Installation
 
-* Ruby version
+1. Clone this repo.
+2. Navigate into the backend by entering `cd backend` in your terminal.
+3. Run `bundle install`.
+4. Run `rails db:migrate` and `rails db:seed`.
+5. Run `rails s` to start the Rails server.
+6. Navigate to the frontend folder.
+7. Open the index.html file in your browser.
 
-* System dependencies
+# Contributing
 
-* Configuration
+Meal Maker encourages open and friendly collaboration on this project in accordance with the code of conduct of the <a href="https://www.contributor-covenant.org/version/2/0/code_of_conduct/">Contributor Covenant</a>
 
-* Database creation
+# License
 
-* Database initialization
+This application is available as open source under the terms of the <a href="http://opensource.org/licenses/MIT">MIT License</a>.
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-=======
-# meal-maker
-An application for making recipes.
 
