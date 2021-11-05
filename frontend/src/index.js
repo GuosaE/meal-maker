@@ -63,4 +63,19 @@ class Recipe {
     }
 
 
+    renderSingleRecipe() {
+        return `
+            <tr>
+                <td>${this.title}
+                <td><img src='${this.image}' width="500" height="500">
+                <td>${this.ingredients}
+                <td>${this.instructions}
+                <td>${this.cuisine}
+            </tr>
+            <button data-id="${this.id}" class="recipe-button">Delete</button>
+            `;
+    }
+
+
+
 }
