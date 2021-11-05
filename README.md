@@ -7,13 +7,14 @@ Meal Maker is an application with a JavaScript frontend and a Rails API backend 
 1. Clone this repo.
 2. Navigate into the backend by entering `cd backend` in your terminal.
 3. Run `bundle install`.
-4. Run `rails db:migrate` and `rails db:seed`.
+4. Run `rails db:migrate`. 
+5. Run `rails db:seed`.
 5. Run `rails s` to start the Rails server.
 6. Open the index.html file in the frontend folder in your browser. 
 
 # Contributing
 
-Meal Maker encourages open and friendly collaboration on this project in accordance with the code of conduct of the <a href="https://www.contributor-covenant.org/version/2/0/code_of_conduct/">Contributor Covenant</a>
+Meal Maker encourages open and friendly collaboration on this project in accordance with the code of conduct of the <a href="https://www.contributor-covenant.org/version/2/0/code_of_conduct/">Contributor Covenant</a>.
 
 # License
 
