@@ -99,5 +99,21 @@ class Recipe {
     }
 
 
+    static deleteExistingRecipe(event) {
+        if(event.target.innerHTML === 'Delete') {
+            const recipeDeleteButton = event.target
+            const recipeRow = event.target.previousElementSibling;
+            const recipeId = event.target.dataset.id
+            recipeRow.remove();
+            recipeDeleteButton.remove();
+            fetch(`http://localhost:3000/recipes/${recipeId}`, 
+                { method: 'DELETE', 
+                  headers: {
+                  "Content-Type": "application/json",
+                } 
+            });
+        }
+    }
+
 
 }
