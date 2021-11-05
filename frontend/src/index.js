@@ -77,5 +77,14 @@ class Recipe {
     }
 
 
+    static getAllRecipes(){
+        fetch(recipesURL)
+        .then(resp => resp.json())
+        .then(data => {
+            Recipe.appendRecipes(data);
+        });
+    }
+
+
 
 }
