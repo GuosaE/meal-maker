@@ -86,5 +86,18 @@ class Recipe {
     }
 
 
+    static appendRecipes(recipes) {
+        recipes.forEach((recipe) =>{
+            let newRecipe = new Recipe(`${recipe.id}`, 
+            `${recipe.title}`, 
+            `${recipe.image}`, 
+            `${recipe.instructions}`, 
+            `${recipe.ingredients}`, 
+            `${recipe.cuisine.title}`); 
+            recipeContainer.innerHTML += newRecipe.renderSingleRecipe()
+        });
+    }
+
+
 
 }
