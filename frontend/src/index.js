@@ -2,11 +2,6 @@ const recipesURL = 'http://localhost:3000/recipes';
 const recipeContainer = document.querySelector('tbody');
 const form = document.getElementById('add-new-recipe-form')
 
-Recipe.getAllRecipes();
-
-form.addEventListener('submit', Recipe.makeNewRecipe);
-recipeContainer.addEventListener('click', Recipe.deleteExistingRecipe)
-
 class Recipe {
 
     constructor(id, title, image, instructions, ingredients, cuisine) {
@@ -117,3 +112,9 @@ class Recipe {
 
 
 }
+
+
+Recipe.getAllRecipes();
+
+form.addEventListener('submit', Recipe.makeNewRecipe);
+recipeContainer.addEventListener('click', Recipe.deleteExistingRecipe)

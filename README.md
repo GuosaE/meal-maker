@@ -9,8 +9,7 @@ Meal Maker is an application with a JavaScript frontend and a Rails API backend 
 3. Run `bundle install`.
 4. Run `rails db:migrate` and `rails db:seed`.
 5. Run `rails s` to start the Rails server.
-6. Navigate to the frontend folder.
-7. Open the index.html file in your browser.
+6. Open the index.html file in the frontend folder in your browser. 
 
 # Contributing
 
