@@ -16,7 +16,7 @@ class CuisinesController < ApplicationController
         if cuisine.save
             render json: cuisine
         else
-            render json: {error: "Error"}
+            render json: {message: "Error"}
         end
     end
     

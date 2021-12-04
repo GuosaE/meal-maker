@@ -35,13 +35,13 @@ class Recipe {
     }
 
 
-    static postNewRecipe(newRecipe) {
+    static postNewRecipe(someRecipe) {
         const options = {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify(newRecipe),
+            body: JSON.stringify(someRecipe),
         };
     
         fetch(recipesURL, options)
@@ -90,6 +90,7 @@ class Recipe {
             `${recipe.ingredients}`, 
             `${recipe.cuisine.title}`); 
             recipeContainer.innerHTML += newRecipe.renderSingleRecipe()
+        //  recipeContainer.insertAdjacentHTML("beforeend", newRecipe.renderSingleRecipe())
         });
     }
 
