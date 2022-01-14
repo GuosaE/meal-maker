@@ -49,3 +49,12 @@ th {
     color: white;
     margin-bottom: 20px ;
 }
+
+#submit-button {
+    font-size: 1.0rem;
+    border-collapse: collapse;
+    border-radius: 6px;
+    background-color: rgb(43, 72, 156);
+    color: white;
+    margin-bottom: 20px ;
+}
