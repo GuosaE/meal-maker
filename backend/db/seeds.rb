@@ -6,33 +6,32 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-c1 = Cuisine.create(title: "African")
+c1 = Cuisine.create(title: "Mediterranean")
 c2 = Cuisine.create(title: "Latin American")
 c3 = Cuisine.create(title: "Asian")
-c4 = Cuisine.create(title: "Mediterranean")
+c4 = Cuisine.create(title: "African")
 
-Recipe.create(title: "Jollof Rice", 
-image: "https://feelgoodfoodie.net/wp-content/uploads/2020/07/Jollof-Rice-4.jpg",
-instructions: "Season and cook the steak. Remove from the pan.
-Cook the onions until they are soft and translucent.
-Add in the rice, along with the tomato paste and seasonings. Stir to combine.
-Add in the rest of the ingredients, the cooked steak and water; and bring to a boil.
-Simmer covered until the rice is cooked.",
-ingredients: "1/3 cup oil (vegetable/canola/coconut, not olive oil)
-6 medium-sized fresh plum/Roma tomatoes, chopped, OR a 400-gram tin of tomatoes
-6 fresh, red poblano peppers (or 4 large red bell peppers), seeds discarded
-3 medium-sized red onions (1 sliced thinly, 2 roughly chopped), divided
-1/2 to 1 hot pepper, or to taste (yellow Scotch bonnets are my favourite)
-3 tablespoons tomato paste
-2 teaspoons (Caribbean/Jamaican-style) curry powder
-1 teaspoon dried thyme
-2 dried bay leaves
-5 to 6 cups stock (vegetable, chicken, or beef) or water, divided
-2 teaspoons unsalted butter (optional), divided
-4 cups uncooked converted long-grain rice or golden sella basmati, rinsed
-Salt, to taste
-Black and white pepper, to taste
-Extra: sliced onions, tomatoes",
+Recipe.create(title: "Greek Lemon Pilaf",
+image: "https://img.sndimg.com/food/image/upload/c_thumb,q_80,w_599,h_337/v1/img/recipes/36/34/6/picEIb5Gb.jpg",
+instructions: "In a heavy saucepan, saute onion in butter until tender.
+Add rice and orzo and cook, stirring, for 2 minutes.
+Add chicken broth and lemon juice and bring to a boil.
+Reduce heat, cover, and simmer for 20 minutes or until rice is tender and liquid has been absorbed.
+Fluff pilaf up with fork and stir in chopped parsley.",
+ingredients: "2
+tablespoons butter or 2 tablespoons margarine
+1/2
+cup chopped onion
+1
+cup long grain rice
+2
+tablespoons orzo pasta
+2
+cups chicken broth
+1⁄4
+cup lemon juice
+2
+tablespoons chopped parsley",
 cuisine: c1)
 
 Recipe.create(title: "Arroz con Pollo",
@@ -109,25 +108,26 @@ dash of ground white pepper (optional)
 1 to 2 teaspoons toasted sesame oil",
 cuisine: c3)
 
-Recipe.create(title: "Greek Lemon Pilaf",
-image: "https://img.sndimg.com/food/image/upload/c_thumb,q_80,w_599,h_337/v1/img/recipes/36/34/6/picEIb5Gb.jpg",
-instructions: "In a heavy saucepan, saute onion in butter until tender.
-Add rice and orzo and cook, stirring, for 2 minutes.
-Add chicken broth and lemon juice and bring to a boil.
-Reduce heat, cover, and simmer for 20 minutes or until rice is tender and liquid has been absorbed.
-Fluff pilaf up with fork and stir in chopped parsley.",
-ingredients: "2
-tablespoons butter or 2 tablespoons margarine
-1/2
-cup chopped onion
-1
-cup long grain rice
-2
-tablespoons orzo pasta
-2
-cups chicken broth
-1⁄4
-cup lemon juice
-2
-tablespoons chopped parsley",
+Recipe.create(title: "Jollof Rice", 
+image: "https://feelgoodfoodie.net/wp-content/uploads/2020/07/Jollof-Rice-4.jpg",
+instructions: "Season and cook the steak. Remove from the pan.
+Cook the onions until they are soft and translucent.
+Add in the rice, along with the tomato paste and seasonings. Stir to combine.
+Add in the rest of the ingredients, the cooked steak and water; and bring to a boil.
+Simmer covered until the rice is cooked.",
+ingredients: "1/3 cup oil (vegetable/canola/coconut, not olive oil)
+6 medium-sized fresh plum/Roma tomatoes, chopped, OR a 400-gram tin of tomatoes
+6 fresh, red poblano peppers (or 4 large red bell peppers), seeds discarded
+3 medium-sized red onions (1 sliced thinly, 2 roughly chopped), divided
+1/2 to 1 hot pepper, or to taste (yellow Scotch bonnets are my favourite)
+3 tablespoons tomato paste
+2 teaspoons (Caribbean/Jamaican-style) curry powder
+1 teaspoon dried thyme
+2 dried bay leaves
+5 to 6 cups stock (vegetable, chicken, or beef) or water, divided
+2 teaspoons unsalted butter (optional), divided
+4 cups uncooked converted long-grain rice or golden sella basmati, rinsed
+Salt, to taste
+Black and white pepper, to taste
+Extra: sliced onions, tomatoes",
 cuisine: c4)
