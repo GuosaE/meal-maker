@@ -13,7 +13,7 @@ body {
   height:40px; 
   background-color: #1c5786;
   color: white;
-  border-radius: 7px;
+  border-radius: 8px;
   margin: auto;
   text-align: center; 
   padding: 10px 0px 10px; 
@@ -56,22 +56,23 @@ th {
 }
   
 .recipe-button {
-    font-size: 1.2rem;
-    border: 1px solid rgb(65, 37, 226);
+    font-size: 1.1rem;
+    border-collapse: collapse;
     background-color: rgb(43, 72, 156);
     color: white;
     margin-bottom: 20px ;
-    border-radius: 7px;
+    border-radius: 8px;
+    opacity: 0.90;
 }
 
 #submit-button {
     font-size: 1.0rem;
     border-collapse: collapse;
-    border-radius: 7px;
+    border-radius: 8px;
     background-color: rgb(43, 72, 156);
     color: white;
     margin-bottom: 20px;
-    opacity: 0.85;
+    opacity: 0.9;
 }
 
 /* #add-new-recipe-form{
