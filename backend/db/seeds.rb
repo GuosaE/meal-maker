@@ -12,7 +12,7 @@ c3 = Cuisine.create(title: "Asian")
 c4 = Cuisine.create(title: "African")
 
 Recipe.create(title: "Greek Lemon Pilaf",
-image: "https://img.sndimg.com/food/image/upload/c_thumb,q_80,w_599,h_337/v1/img/recipes/36/34/6/picEIb5Gb.jpg",
+image: "https://www.nospoonnecessary.com/wp-content/uploads/2021/07/Greek-Lemon-Rice-Recipe-35.jpg",
 instructions: "1. In a heavy saucepan, saute onion in butter until tender.
 
 2. Add rice and orzo and cook, stirring, for 2 minutes.
