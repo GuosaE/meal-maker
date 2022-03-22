@@ -1,5 +1,7 @@
 # Meal Maker
 
+![](meal-maker-demo.gif)
+
 Meal Maker is an application with a JavaScript frontend and a Rails API backend for storing one's favorite recipes.
 
 # Installation
