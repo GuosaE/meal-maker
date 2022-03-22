@@ -6,6 +6,7 @@
 body {
     background-image: url("https://ychef.files.bbci.co.uk/976x549/p02cwn1m.jpg");
     background-color: #FAF9F6;
+    background-size: contain;
 }
 
 #body-header {
@@ -58,7 +59,7 @@ th {
 .recipe-button {
     font-size: 1.1rem;
     border-collapse: collapse;
-    background-color: rgb(43, 72, 156);
+    background-color: #1c5786;
     color: white;
     margin-bottom: 20px ;
     border-radius: 9px;
@@ -66,13 +67,14 @@ th {
 }
 
 #submit-button {
-    font-size: 1.0rem;
+    font-size: 1.1rem;
     border-collapse: collapse;
     border-radius: 9px;
-    background-color: rgb(43, 72, 156);
+    background-color: #1c5786;
     color: white;
     margin-bottom: 20px;
     opacity: 0.9;
+    padding: 5px 15px 5px 15px;
 }
 
 #inputs {
